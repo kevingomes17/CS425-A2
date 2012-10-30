@@ -1,0 +1,62 @@
+/* 
+    Document   : style
+    Created on : Oct 3, 2012, 11:34:30 PM
+    Author     : kevingomes17
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body {
+    font-family: "Trebuchet MS";
+    background-color: #efefef;
+}
+h1 {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-top: 0;
+    padding-top: 0;
+}
+.main-wrapper { 
+    display: block;
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 4px;
+}
+#content {
+    padding: 4px 0 10px 0;
+    min-height: 500px;
+}
+#footer {
+    border-top: 1px solid #000;
+    padding: 4px 0 0 0;
+    font-size: 0.9em;
+    text-align: center;
+}
+#primary-menu {
+    margin-left: 0;
+    padding-left: 0;
+}
+#primary-menu li {
+    display: inline;    
+    border-right: 1px solid #555;
+    padding-right: 4px;
+}
+#primary-menu li a {
+    text-decoration: none;
+    color: #b00;
+    
+}
+#primary-menu li a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+.pointer {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #b00;
+}
